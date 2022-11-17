@@ -225,7 +225,6 @@ class PdfGui():
         filePath2 = self.entry31.get() #POST FILE
         print(filePath1)
         print(filePath2)
-        #self.GUI_main2(filePath1,filePath2)
         pdf_to_pdf(filePath1, filePath2)
         print("実行完了","PDF->PDF")
 
@@ -253,6 +252,3 @@ class PdfGui():
         print("実行完了",method)
 
 PdfGui()
-
-#if __name__ == "__main__":
-#    main()
